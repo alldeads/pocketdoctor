@@ -1,0 +1,68 @@
+Tue Aug 6 17:14:12 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   eb6eb79b..03deb1a3  master     -> origin/master
+Updating eb6eb79b..03deb1a3
+Fast-forward
+ .env.example                                       |    15 +-
+ app/Clients/RainbowClient.php                      |   143 +
+ app/Http/Controllers/Api/V2/CustomerController.php |     5 +
+ app/Http/Controllers/Auth/AuthController.php       |    40 +-
+ .../Doctors/ConsultationsController.php            |    11 +-
+ app/Http/Routes/doctors.php                        |     5 +
+ app/Models/RainbowAccount.php                      |    20 +
+ app/Models/User.php                                |     5 +
+ app/Transformers/Api/ConsultationTransformer.php   |     3 +-
+ app/Transformers/Api/UserTransformer.php           |     6 +
+ app/Transformers/ConsultationTransformer.php       |     5 +-
+ config/rainbow.php                                 |    17 +
+ ..._08_02_120215_create_rainbow_accounts_table.php |    36 +
+ ...0818_add_has_rainbow_account_on_users_table.php |    29 +
+ package-lock.json                                  | 11097 +++++++++++++++++++
+ package.json                                       |     4 +-
+ public/assets/audio/facebook_call.mp3              |   Bin 0 -> 161051 bytes
+ public/assets/audio/phone_dial.mp3                 |   Bin 0 -> 158823 bytes
+ public/assets/img/revamp/videocall.svg             |     1 +
+ .../js/doctors/doctors.dashboard.consultations.js  |    35 +-
+ public/assets/js/rainbow/rainbow-sdk.min.js        |     7 +
+ public/assets/js/rainbow/rainbow.js                |   297 +
+ public/assets/js/rainbow/vendors-sdk.min.js        |     1 +
+ .../views/layouts/patients/patients.blade.php      |   179 +-
+ .../views/metronic/admin/skus/index.blade.php      |     4 +-
+ resources/views/metronic/app.blade.php             |    14 +
+ .../views/metronic/consultations/details.blade.php |    17 +-
+ .../metronic/doctor/consultations/show.blade.php   |    61 +-
+ .../medical-profile/personal-info.blade.php        |     4 +-
+ .../video-call-room/video-call-room.blade.php      |   115 +
+ 30 files changed, 12140 insertions(+), 36 deletions(-)
+ create mode 100644 app/Clients/RainbowClient.php
+ create mode 100644 app/Models/RainbowAccount.php
+ create mode 100644 config/rainbow.php
+ create mode 100644 database/migrations/2019_08_02_120215_create_rainbow_accounts_table.php
+ create mode 100644 database/migrations/2019_08_02_120818_add_has_rainbow_account_on_users_table.php
+ create mode 100644 package-lock.json
+ create mode 100644 public/assets/audio/facebook_call.mp3
+ create mode 100644 public/assets/audio/phone_dial.mp3
+ create mode 100644 public/assets/img/revamp/videocall.svg
+ create mode 100644 public/assets/js/rainbow/rainbow-sdk.min.js
+ create mode 100644 public/assets/js/rainbow/rainbow.js
+ create mode 100644 public/assets/js/rainbow/vendors-sdk.min.js
+ create mode 100644 resources/views/video-call-room/video-call-room.blade.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalThrowableError]  
+  Class 'CreateRainbowAccountsTable' not found             
+                                                           
+

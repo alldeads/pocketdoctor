@@ -1,0 +1,2 @@
+Warning: You forced the install of 1.10.22 via --1, but 2.1.3 is the latest stable version. Updating to it via composer self-update --stable is recommended.
+You are already using composer version 1.10.22 (1.x channel).

@@ -1,0 +1,24 @@
+Tue Apr 16 17:10:58 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   cb81c6e8..e724eb27  master     -> origin/master
+Updating cb81c6e8..e724eb27
+Fast-forward
+ resources/views/metronic/app.blade.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Nothing to migrate.
+Compiled views cleared!
+Broadcasting queue restart signal.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    299     80 --:--:-- --:--:-- --:--:--   380
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

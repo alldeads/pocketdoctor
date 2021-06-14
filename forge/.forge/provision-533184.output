@@ -1,0 +1,37 @@
+Tue Feb 4 13:02:41 PST 2020
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   4a91afdd..1bd25a8f  master     -> origin/master
+Updating 4a91afdd..1bd25a8f
+Fast-forward
+ .../Controllers/Api/V3/ConsultationsController.php | 20 +++++++++
+ .../Customers/ConsultationsController.php          | 25 ++++++++++-
+ .../Nurses/InsularMembersController.php            | 51 ++++++----------------
+ app/Http/Routes/nurses.php                         |  4 ++
+ app/Models/Coupon.php                              |  1 +
+ ...625_add_insular_confirmed_at_on_users_table.php | 31 +++++++++++++
+ .../views/metronic/consultations/details.blade.php | 25 +++++++++++
+ 7 files changed, 118 insertions(+), 39 deletions(-)
+ create mode 100644 database/migrations/2020_02_04_105625_add_insular_confirmed_at_on_users_table.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. It is recommended that you run `composer update` or `composer update <package name>`.
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Migrated: 2020_02_04_105625_add_insular_confirmed_at_on_users_table
+Compiled views cleared!
+Broadcasting queue restart signal.
+Configuration cache cleared!
+Configuration cached successfully!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    343     92 --:--:-- --:--:-- --:--:--   433100   118    0    93  100    25    343     92 --:--:-- --:--:-- --:--:--   433
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

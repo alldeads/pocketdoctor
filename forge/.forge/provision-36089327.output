@@ -1,0 +1,70 @@
+Wed Jan 22 12:29:59 PST 2020
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   c37d27b6..120f1bfb  master     -> origin/master
+Updating c37d27b6..120f1bfb
+Fast-forward
+ .../Controllers/Api/V1/ConsultationsController.php |  18 +
+ app/Http/Controllers/Auth/AuthController.php       |   2 +
+ .../MedicardNurses/ConsultationsController.php     | 401 +++++++++++++++++++++
+ .../Datatables/ConsultationsDatatables.php         |  98 +++++
+ .../Datatables/PatientsDatatables.php              |  47 +++
+ .../Controllers/MedicardNurses/HomeController.php  |  16 +
+ .../MedicardNurses/MedicardMembersController.php   |  95 +++++
+ .../MedicardNurses/PatientsController.php          | 245 +++++++++++++
+ app/Http/Routes/api.php                            |   2 +
+ app/Http/Routes/medicard-nurses.php                | 155 ++++++++
+ app/Http/routes.php                                |   9 +
+ app/Models/Consultation.php                        |  21 ++
+ app/Models/Role.php                                |   1 +
+ app/Models/User.php                                |   5 +
+ app/Support/SentinelRedirect.php                   |   2 +
+ config/sidebar.php                                 |  17 +
+ database/seeds/DatabaseSeeder.php                  |   1 +
+ database/seeds/MedicardNurseSeeder.php             |  20 +
+ public/assets/js/app.admin.js                      |  54 +++
+ resources/views/metronic/app.blade.php             |   7 +
+ .../consultations/partials/_instructions.blade.php |  23 ++
+ .../medicard-nurse/consultations/edit.blade.php    |  98 +++++
+ .../medicard-nurse/consultations/index.blade.php   | 319 ++++++++++++++++
+ .../medicard-nurse/consultations/show.blade.php    | 134 +++++++
+ .../metronic/medicard-nurse/home/index.blade.php   | 230 ++++++++++++
+ .../medicard-nurse/medicards/create.blade.php      |  89 +++++
+ resources/views/metronic/patients/index.blade.php  |  12 +-
+ .../metronic/patients/medical-profile.blade.php    |   2 +
+ 28 files changed, 2120 insertions(+), 3 deletions(-)
+ create mode 100644 app/Http/Controllers/MedicardNurses/ConsultationsController.php
+ create mode 100644 app/Http/Controllers/MedicardNurses/Datatables/ConsultationsDatatables.php
+ create mode 100644 app/Http/Controllers/MedicardNurses/Datatables/PatientsDatatables.php
+ create mode 100644 app/Http/Controllers/MedicardNurses/HomeController.php
+ create mode 100644 app/Http/Controllers/MedicardNurses/MedicardMembersController.php
+ create mode 100644 app/Http/Controllers/MedicardNurses/PatientsController.php
+ create mode 100644 app/Http/Routes/medicard-nurses.php
+ create mode 100644 database/seeds/MedicardNurseSeeder.php
+ create mode 100644 resources/views/metronic/medicard-nurse/consultations/edit.blade.php
+ create mode 100644 resources/views/metronic/medicard-nurse/consultations/index.blade.php
+ create mode 100644 resources/views/metronic/medicard-nurse/consultations/show.blade.php
+ create mode 100644 resources/views/metronic/medicard-nurse/home/index.blade.php
+ create mode 100644 resources/views/metronic/medicard-nurse/medicards/create.blade.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. It is recommended that you run `composer update` or `composer update <package name>`.
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Nothing to migrate.
+Compiled views cleared!
+Broadcasting queue restart signal.
+Configuration cache cleared!
+Configuration cached successfully!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   118    0    93  100    25     51     13  0:00:01  0:00:01 --:--:--    65
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

@@ -1,0 +1,29 @@
+Tue Aug 6 20:19:16 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   bed95de2..8216124a  master     -> origin/master
+Updating bed95de2..8216124a
+Fast-forward
+ .../metronic/doctor/consultations/show.blade.php      | 19 ++++++++++---------
+ 1 file changed, 10 insertions(+), 9 deletions(-)
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Nothing to migrate.
+Compiled views cleared!
+Broadcasting queue restart signal.
+Configuration cache cleared!
+Configuration cached successfully!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25    0     0  100    25      0    117 --:--:-- --:--:-- --:--:--   116100   118    0    93  100    25    288     77 --:--:-- --:--:-- --:--:--   365
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

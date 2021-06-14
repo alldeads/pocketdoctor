@@ -1,0 +1,28 @@
+Thu Mar 12 10:32:06 PST 2020
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+Already up to date.
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Installation request for doctrine/dbal v2.10.1 -> satisfiable by doctrine/dbal[v2.10.1].
+    - doctrine/dbal v2.10.1 requires php ^7.2 -> your PHP version (7.1.33) does not satisfy that requirement.
+  Problem 2
+    - Installation request for ocramius/package-versions 1.5.1 -> satisfiable by ocramius/package-versions[1.5.1].
+    - ocramius/package-versions 1.5.1 requires php ^7.3.0 -> your PHP version (7.1.33) does not satisfy that requirement.
+  Problem 3
+    - Installation request for symfony/options-resolver v5.0.5 -> satisfiable by symfony/options-resolver[v5.0.5].
+    - symfony/options-resolver v5.0.5 requires php ^7.2.5 -> your PHP version (7.1.33) does not satisfy that requirement.
+  Problem 4
+    - Installation request for phpdocumentor/reflection-docblock 5.1.0 -> satisfiable by phpdocumentor/reflection-docblock[5.1.0].
+    - phpdocumentor/reflection-docblock 5.1.0 requires php ^7.2 -> your PHP version (7.1.33) does not satisfy that requirement.
+  Problem 5
+    - Installation request for phpdocumentor/type-resolver 1.1.0 -> satisfiable by phpdocumentor/type-resolver[1.1.0].
+    - phpdocumentor/type-resolver 1.1.0 requires php ^7.2 -> your PHP version (7.1.33) does not satisfy that requirement.
+  Problem 6
+    - phpdocumentor/reflection-docblock 5.1.0 requires php ^7.2 -> your PHP version (7.1.33) does not satisfy that requirement.
+    - phpspec/prophecy v1.10.3 requires phpdocumentor/reflection-docblock ^2.0|^3.0.2|^4.0|^5.0 -> satisfiable by phpdocumentor/reflection-docblock[5.1.0].
+    - Installation request for phpspec/prophecy v1.10.3 -> satisfiable by phpspec/prophecy[v1.10.3].
+

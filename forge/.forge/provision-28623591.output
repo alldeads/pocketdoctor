@@ -1,0 +1,9 @@
+Wed Jun 19 15:55:17 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   70e270f1..0cc6e571  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+	app/Http/Controllers/Nurses/ConsultationsController.php
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 70e270f1..0cc6e571

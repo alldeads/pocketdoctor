@@ -1,0 +1,4447 @@
+{
+    "packages": {
+        "chrisbjr/messagecast": {
+            "0.1": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "25c4f86bf5961df78e6c257cffbe9c3cf7669357"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.*",
+                    "katzgrau/klogger": "1.0.*"
+                },
+                "time": "2014-12-31T17:03:28+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.1.1": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "e2f65cb43beca48631ab47d0cefed12a47cb9af6"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.*",
+                    "katzgrau/klogger": "1.0.*"
+                },
+                "time": "2015-01-01T05:02:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.2": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "adc9a00646ac9cc9d4293f0ee26cf3bce576d0e6"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.*",
+                    "katzgrau/klogger": "1.0.*"
+                },
+                "time": "2015-01-07T13:45:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.2.1": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "eefcbfd3b3a55db225c59d416c25c0a6108d3911"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.*",
+                    "katzgrau/klogger": "1.0.*"
+                },
+                "time": "2015-01-24T09:31:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.2.2": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "07f13c2585db20f636e520d56b011cf16e788ab3"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.*",
+                    "katzgrau/klogger": "1.0.*"
+                },
+                "time": "2015-02-12T03:01:22+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.2.3": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "07b93cca8e5466d27704f21d25e945805ec5720a"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.*",
+                    "katzgrau/klogger": "1.0.*"
+                },
+                "time": "2015-02-24T09:10:43+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.3.0": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.3.0",
+                "version_normalized": "0.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "2c2e100c92194a94c56aa73e5256605e6401bc35"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.*",
+                    "katzgrau/klogger": "1.0.*"
+                },
+                "time": "2015-03-18T02:40:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.3.1": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "13594e439a6a8c1059325b883e66b50b8a8bed2b"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.*",
+                    "katzgrau/klogger": "1.0.*"
+                },
+                "time": "2015-03-18T07:58:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.4.0": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.4.0",
+                "version_normalized": "0.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "9238c80219162fd27956dfa1fe73da293b348777"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.0.*",
+                    "psr/log": "1.0.0",
+                    "vlucas/valitron": "1.2.*"
+                },
+                "require-dev": {
+                    "katzgrau/klogger": "dev-master"
+                },
+                "time": "2015-03-20T09:20:19+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/Support/helpers.php"
+                    ],
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.4.1": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "c537579c8d737c85780580fb1cb4318934a95255"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.0.*",
+                    "psr/log": "1.0.0",
+                    "vlucas/valitron": "1.2.*"
+                },
+                "require-dev": {
+                    "katzgrau/klogger": "dev-master"
+                },
+                "time": "2015-03-22T15:36:42+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/Support/helpers.php"
+                    ],
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.4.2": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.4.2",
+                "version_normalized": "0.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "57e702e4b41c97a768a450e5bd4382b80fa140f3"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.0.*",
+                    "psr/log": "1.0.0",
+                    "vlucas/valitron": "1.2.*"
+                },
+                "require-dev": {
+                    "katzgrau/klogger": "dev-master"
+                },
+                "time": "2015-03-22T16:23:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/Support/helpers.php"
+                    ],
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.4.3": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.4.3",
+                "version_normalized": "0.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "39f14ba772a2912265726d4f004c9f0029f48766"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.0.*",
+                    "psr/log": "1.0.0",
+                    "vlucas/valitron": "1.2.*"
+                },
+                "require-dev": {
+                    "katzgrau/klogger": "dev-master"
+                },
+                "time": "2015-07-22T15:22:04+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/Support/helpers.php"
+                    ],
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.4.4": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.4.4",
+                "version_normalized": "0.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "5437c6decf31fbf329a6a54195478e904a3460f1"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "5.0.*",
+                    "psr/log": "1.0.0",
+                    "vlucas/valitron": "1.2.*"
+                },
+                "require-dev": {
+                    "katzgrau/klogger": "dev-master"
+                },
+                "time": "2017-01-05T04:35:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/Support/helpers.php"
+                    ],
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "0.5.0": {
+                "name": "chrisbjr/messagecast",
+                "version": "0.5.0",
+                "version_normalized": "0.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "1e3316ab15954a19d6ba467641cbf0566eec08d4"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "6.*",
+                    "psr/log": "1.0.0",
+                    "vlucas/valitron": "1.2.*"
+                },
+                "require-dev": {
+                    "katzgrau/klogger": "dev-master"
+                },
+                "time": "2017-01-08T16:47:21+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/Support/helpers.php"
+                    ],
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "dev-master": {
+                "name": "chrisbjr/messagecast",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "1e3316ab15954a19d6ba467641cbf0566eec08d4"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "6.*",
+                    "psr/log": "1.0.0",
+                    "vlucas/valitron": "1.2.*"
+                },
+                "require-dev": {
+                    "katzgrau/klogger": "dev-master"
+                },
+                "time": "2017-01-08T16:47:21+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/Support/helpers.php"
+                    ],
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            },
+            "dev-develop": {
+                "name": "chrisbjr/messagecast",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/chrisbjr/messagecast-php.git",
+                    "reference": "ebd2825a39ff85c0a91648519a6077873eb62add"
+                },
+                "require": {
+                    "coreproc/msisdn-ph": "0.1.*",
+                    "guzzlehttp/guzzle": "6.*",
+                    "psr/log": "1.0.0",
+                    "vlucas/valitron": "1.2.*"
+                },
+                "require-dev": {
+                    "katzgrau/klogger": "dev-master"
+                },
+                "time": "2017-01-08T16:41:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/Support/helpers.php"
+                    ],
+                    "psr-4": {
+                        "Chrisbjr\\Messagecast\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Bautista",
+                        "email": "chrisbjr@gmail.com"
+                    }
+                ],
+                "description": "A PHP library for consuming the Messagecast API"
+            }
+        },
+        "coreproc/pesopay-sdk-php": {
+            "1.0.0": {
+                "name": "coreproc/pesopay-sdk-php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/coreproc/pesopay-sdk-php.git",
+                    "reference": "47334308d91aa6d43728222303a953a493a58176"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2",
+                    "php": ">=5.5.9",
+                    "symfony/psr-http-message-bridge": "0.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.4"
+                },
+                "time": "2016-07-14T09:17:46+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Coreproc\\PesoPay\\Sdk\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Prince John Lansang",
+                        "email": "princejohn.lansang@coreproc.ph"
+                    },
+                    {
+                        "name": "Jonnel Ivan Bergonia",
+                        "email": "ivan.bergonia@coreproc.ph"
+                    },
+                    {
+                        "name": "Daniel Orencio",
+                        "email": "daniel.orencio@coreproc.ph"
+                    }
+                ]
+            },
+            "1.0.1": {
+                "name": "coreproc/pesopay-sdk-php",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/coreproc/pesopay-sdk-php.git",
+                    "reference": "a086fb3c0773533460e2d4f9b35f05e58b51daaf"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2",
+                    "php": ">=5.5.9",
+                    "symfony/psr-http-message-bridge": "0.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.4"
+                },
+                "time": "2017-09-29T07:31:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Coreproc\\PesoPay\\Sdk\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Prince John Lansang",
+                        "email": "princejohn.lansang@coreproc.ph"
+                    },
+                    {
+                        "name": "Jonnel Ivan Bergonia",
+                        "email": "ivan.bergonia@coreproc.ph"
+                    },
+                    {
+                        "name": "Daniel Orencio",
+                        "email": "daniel.orencio@coreproc.ph"
+                    },
+                    {
+                        "name": "Justin de Leon",
+                        "email": "justin.deleon@coreproc.ph"
+                    }
+                ]
+            },
+            "1.0.2": {
+                "name": "coreproc/pesopay-sdk-php",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/coreproc/pesopay-sdk-php.git",
+                    "reference": "01bc1efcf8d92b3de495a63b0311677642996cec"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2",
+                    "php": ">=5.5.9",
+                    "symfony/psr-http-message-bridge": "0.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.4"
+                },
+                "time": "2017-09-29T07:43:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Coreproc\\PesoPay\\Sdk\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Prince John Lansang",
+                        "email": "princejohn.lansang@coreproc.ph"
+                    },
+                    {
+                        "name": "Jonnel Ivan Bergonia",
+                        "email": "ivan.bergonia@coreproc.ph"
+                    },
+                    {
+                        "name": "Daniel Orencio",
+                        "email": "daniel.orencio@coreproc.ph"
+                    },
+                    {
+                        "name": "Justin de Leon",
+                        "email": "justin.deleon@coreproc.ph"
+                    }
+                ]
+            },
+            "1.0.3": {
+                "name": "coreproc/pesopay-sdk-php",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/coreproc/pesopay-sdk-php.git",
+                    "reference": "b7ec30ade9ab4cc97d55b23bcc49163888daa82a"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2",
+                    "php": ">=5.5.9",
+                    "symfony/psr-http-message-bridge": "0.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.4"
+                },
+                "time": "2017-09-29T08:43:19+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Coreproc\\PesoPay\\Sdk\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Prince John Lansang",
+                        "email": "princejohn.lansang@coreproc.ph"
+                    },
+                    {
+                        "name": "Jonnel Ivan Bergonia",
+                        "email": "ivan.bergonia@coreproc.ph"
+                    },
+                    {
+                        "name": "Daniel Orencio",
+                        "email": "daniel.orencio@coreproc.ph"
+                    },
+                    {
+                        "name": "Justin de Leon",
+                        "email": "justin.deleon@coreproc.ph"
+                    }
+                ]
+            },
+            "1.0.4": {
+                "name": "coreproc/pesopay-sdk-php",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/coreproc/pesopay-sdk-php.git",
+                    "reference": "c16146b688a9eff41c7e46677c82e14ef3ca9980"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2",
+                    "php": ">=5.5.9"
+                },
+                "time": "2018-05-01T07:36:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Coreproc\\PesoPay\\Sdk\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Prince John Lansang",
+                        "email": "princejohn.lansang@coreproc.ph"
+                    },
+                    {
+                        "name": "Jonnel Ivan Bergonia",
+                        "email": "ivan.bergonia@coreproc.ph"
+                    },
+                    {
+                        "name": "Daniel Orencio",
+                        "email": "daniel.orencio@coreproc.ph"
+                    },
+                    {
+                        "name": "Justin de Leon",
+                        "email": "justin.deleon@coreproc.ph"
+                    }
+                ],
+                "description": "Pesopay SDK for PHP"
+            },
+            "1.0.x-dev": {
+                "name": "coreproc/pesopay-sdk-php",
+                "version": "1.0.x-dev",
+                "version_normalized": "1.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/coreproc/pesopay-sdk-php.git",
+                    "reference": "c16146b688a9eff41c7e46677c82e14ef3ca9980"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2",
+                    "php": ">=5.5.9"
+                },
+                "time": "2018-05-01T07:36:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Coreproc\\PesoPay\\Sdk\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Prince John Lansang",
+                        "email": "princejohn.lansang@coreproc.ph"
+                    },
+                    {
+                        "name": "Jonnel Ivan Bergonia",
+                        "email": "ivan.bergonia@coreproc.ph"
+                    },
+                    {
+                        "name": "Daniel Orencio",
+                        "email": "daniel.orencio@coreproc.ph"
+                    },
+                    {
+                        "name": "Justin de Leon",
+                        "email": "justin.deleon@coreproc.ph"
+                    }
+                ],
+                "description": "Pesopay SDK for PHP"
+            },
+            "dev-master": {
+                "name": "coreproc/pesopay-sdk-php",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/coreproc/pesopay-sdk-php.git",
+                    "reference": "a355f722d1ab959dde2b621b10a8ac12706bc2cb"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~5.0",
+                    "php": ">=5.5.9",
+                    "symfony/psr-http-message-bridge": "0.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.4"
+                },
+                "time": "2016-07-15T07:03:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Coreproc\\PesoPay\\Sdk\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Prince John Lansang",
+                        "email": "princejohn.lansang@coreproc.ph"
+                    },
+                    {
+                        "name": "Jonnel Ivan Bergonia",
+                        "email": "ivan.bergonia@coreproc.ph"
+                    },
+                    {
+                        "name": "Daniel Orencio",
+                        "email": "daniel.orencio@coreproc.ph"
+                    }
+                ]
+            }
+        },
+        "laravel/nova": {
+            "v1.0.18": {
+                "name": "laravel/nova",
+                "version": "v1.0.18",
+                "version_normalized": "1.0.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "30e2e685078299ca2bdb1559f8ce0ef325c58139"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-09-19T16:10:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.0.19": {
+                "name": "laravel/nova",
+                "version": "v1.0.19",
+                "version_normalized": "1.0.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "eecf9a5b6f7eb5b5d89bf53766f3b6c60c0996f1"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-09-19T18:44:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "1.0.x-dev": {
+                "name": "laravel/nova",
+                "version": "1.0.x-dev",
+                "version_normalized": "1.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "8e870a0d3c67dd77b407609178f60778beb53e1d"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "^7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-02-18T19:42:14+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.1.0": {
+                "name": "laravel/nova",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "cec5f2ec54dd3e848fb7f497b161b6c2a1077b3d"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-09-20T14:13:04+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.1.1": {
+                "name": "laravel/nova",
+                "version": "v1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "5f41e1a9c2422ce4460a5697d55ab1dcfc354054"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-09-20T20:37:39+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.1.2": {
+                "name": "laravel/nova",
+                "version": "v1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "2862273df152e15dd7ac16e11f82ca9a3895f94a"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-09-21T19:02:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.1.3": {
+                "name": "laravel/nova",
+                "version": "v1.1.3",
+                "version_normalized": "1.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "128428b44cacd13acd04cd9ec5c3f877c4dd7f6b"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-09-21T19:30:33+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.1.4": {
+                "name": "laravel/nova",
+                "version": "v1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "78b0202f76c839b9946198ad933b4f44773d52ec"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-10-01T13:35:37+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.1.5": {
+                "name": "laravel/nova",
+                "version": "v1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "87eb0ae88b56f2a93d8435dc14139e5fa99dba78"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-10-23T21:53:41+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.1.6": {
+                "name": "laravel/nova",
+                "version": "v1.1.6",
+                "version_normalized": "1.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "d8baa130fa34aef7834e7c860d414cc0886410cd"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-10-24T22:19:09+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.1.7": {
+                "name": "laravel/nova",
+                "version": "v1.1.7",
+                "version_normalized": "1.1.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "a0bffbb84b3dfb95a71fc9a4dad5bdb5d5fed95a"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-10-25T19:25:07+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.1.8": {
+                "name": "laravel/nova",
+                "version": "v1.1.8",
+                "version_normalized": "1.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "a684758af1aab3251b759a71532a3323ee0ddb95"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-11-21T14:35:07+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.1.9": {
+                "name": "laravel/nova",
+                "version": "v1.1.9",
+                "version_normalized": "1.1.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "b42ae25de9638a41b19deb4990941bf4236be827"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-11-27T15:29:02+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.2.0": {
+                "name": "laravel/nova",
+                "version": "v1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "e6ef44739d1b08e092458f974eeebadad8af05ee"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-11-28T15:47:51+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.2.1": {
+                "name": "laravel/nova",
+                "version": "v1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "ef8e0492b2bd51cf7c1fa742d97741615cbfafeb"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2018-12-12T15:47:14+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.3.0": {
+                "name": "laravel/nova",
+                "version": "v1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "efdc3a2455394121896f89f34dc4cc4a4eeee875"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-07T21:04:38+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.3.1": {
+                "name": "laravel/nova",
+                "version": "v1.3.1",
+                "version_normalized": "1.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "e7f7d3ca109d4630882fa8122b2926e12c364496"
+                },
+                "require": {
+                    "cakephp/chronos": "~1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "~4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "~7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-01-21T21:43:45+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v1.3.2": {
+                "name": "laravel/nova",
+                "version": "v1.3.2",
+                "version_normalized": "1.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "a88243f3f9bcc02ae0e96ebdce512e467839db09"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "^7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-02-11T20:04:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.0": {
+                "name": "laravel/nova",
+                "version": "v2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "375af45813382079f961f945975124e65d433e8a"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.8.*",
+                    "orchestra/testbench": "3.8.*",
+                    "phpunit/phpunit": "^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-02-26T16:52:11+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.1": {
+                "name": "laravel/nova",
+                "version": "v2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "fb641afddcd23265e1a31754cd16a6c942f0f7ba"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-03-27T16:38:51+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.10": {
+                "name": "laravel/nova",
+                "version": "v2.0.10",
+                "version_normalized": "2.0.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "d61a6f1b331164bed3f31c92b96e0c11cc645b10"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-08-07T16:05:57+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.11": {
+                "name": "laravel/nova",
+                "version": "v2.0.11",
+                "version_normalized": "2.0.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "055b382736bf2726754e8dcd674b4a0101ab6ac9"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-08-13T17:17:17+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.2": {
+                "name": "laravel/nova",
+                "version": "v2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "04bc10d253b94a2dd1bac021e9024960e43e258d"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-04-29T17:48:43+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.3": {
+                "name": "laravel/nova",
+                "version": "v2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "84e25f8e3fa29cc441a1797af4d9bce733dec795"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-05-01T17:03:40+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.4": {
+                "name": "laravel/nova",
+                "version": "v2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "47830760ed024237c97fd14ad8910d4c0b8494d8"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-05-14T16:15:08+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.5": {
+                "name": "laravel/nova",
+                "version": "v2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "bba766e6f8f3ecff8d1e8728ff647006f242f6ef"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-05-15T19:21:43+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.6": {
+                "name": "laravel/nova",
+                "version": "v2.0.6",
+                "version_normalized": "2.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "2803cb3cce6290f65949b96f0ef0503f7af56d79"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-06-10T17:21:49+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.7": {
+                "name": "laravel/nova",
+                "version": "v2.0.7",
+                "version_normalized": "2.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "17cb7df77a2d25d5caa78ddefb12192742738ff0"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-06-25T20:54:20+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.8": {
+                "name": "laravel/nova",
+                "version": "v2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "c348c911504baedf1da41d50fa2614a43d2f9397"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-07-02T15:53:33+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.0.9": {
+                "name": "laravel/nova",
+                "version": "v2.0.9",
+                "version_normalized": "2.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "bdf511caee87870af32fedbed2dfa94c0a6483d3"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-07-03T14:40:10+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "2.0.x-dev": {
+                "name": "laravel/nova",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "ed076595b2b5b42c5153572de82954759e8dc7a3"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "^5.7.15 | 5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-02-27T16:16:57+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.1.0": {
+                "name": "laravel/nova",
+                "version": "v2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "37d1da0fcae7cd46296597ac80f6cc9ea60367b5"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-08-20T19:26:49+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.1.1": {
+                "name": "laravel/nova",
+                "version": "v2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "1a3788eeba04c3627b772ab0a35bcb26b1f928d9"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-08-22T20:07:38+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.10.0": {
+                "name": "laravel/nova",
+                "version": "v2.10.0",
+                "version_normalized": "2.10.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "cb050c124f47dd6c68a95dbfdf3777f9205bba78"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2020-02-04T19:27:19+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.10.1": {
+                "name": "laravel/nova",
+                "version": "v2.10.1",
+                "version_normalized": "2.10.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "e51facad6cdf02a8222a752d1a6ec9fcf849faa9"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2020-02-05T19:20:19+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.11.0": {
+                "name": "laravel/nova",
+                "version": "v2.11.0",
+                "version_normalized": "2.11.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "f2b68b66180ce4310d695cb3b242ac7a2406fe8d"
+                },
+                "require": {
+                    "brick/money": "^0.4.2",
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0 | ^5.0",
+                    "symfony/intl": "^4.0 | ^5.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2020-02-18T19:50:19+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.2.0": {
+                "name": "laravel/nova",
+                "version": "v2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "188b331861e22abc9ec9c17d28ebdb837ed6de67"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-09-03T20:23:50+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.3.0": {
+                "name": "laravel/nova",
+                "version": "v2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "54ca98c880e740520bb66340d24f94dd5d64bb0d"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-09-10T16:40:45+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.3.1": {
+                "name": "laravel/nova",
+                "version": "v2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "5a52550f8062557f4cbdd1d5f16caf583af2a2c8"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-09-17T16:03:48+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.4.0": {
+                "name": "laravel/nova",
+                "version": "v2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "ae0d40f92f77e06d64fa9f43c7daeeaeb828ed2f"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-10-01T17:44:14+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.5.0": {
+                "name": "laravel/nova",
+                "version": "v2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "4dae919af5c8038adf07d6ec55bbf07b560a6b4c"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-10-15T19:49:38+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.6.0": {
+                "name": "laravel/nova",
+                "version": "v2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "7078f323275315e89f43534300b0f05125e31810"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-10-29T17:42:57+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.6.1": {
+                "name": "laravel/nova",
+                "version": "v2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "c2e0448986c23af336d8bf44cb02a74801f61c56"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-10-29T20:04:49+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.7.0": {
+                "name": "laravel/nova",
+                "version": "v2.7.0",
+                "version_normalized": "2.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "8476c492e8420d315d91cab15cac819e04422b42"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-11-12T20:23:10+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.7.1": {
+                "name": "laravel/nova",
+                "version": "v2.7.1",
+                "version_normalized": "2.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "07f0f2f0bbe4166ef9ffb2f14ed9dc2b2401489b"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-11-13T17:21:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.8.0": {
+                "name": "laravel/nova",
+                "version": "v2.8.0",
+                "version_normalized": "2.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "f2d32be336a4b8b4bdc9247aacefc7a7a3c5101d"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.* | 3.8.*",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-11-26T20:49:09+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.9.0": {
+                "name": "laravel/nova",
+                "version": "v2.9.0",
+                "version_normalized": "2.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "ae003d81e37949a5d1184cfc0afdb3c7a16c6e83"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-12-10T20:11:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.9.1": {
+                "name": "laravel/nova",
+                "version": "v2.9.1",
+                "version_normalized": "2.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "0160660f90d6e8e28892a62de3d51a29b519a766"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-12-11T16:06:30+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.9.2": {
+                "name": "laravel/nova",
+                "version": "v2.9.2",
+                "version_normalized": "2.9.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "a63196f3a4a6679efe4d6716327120739da87280"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-12-11T17:23:05+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.9.3": {
+                "name": "laravel/nova",
+                "version": "v2.9.3",
+                "version_normalized": "2.9.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "b86eaee07c59edcc82816143a10461434d2f31e9"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2020-01-07T18:37:48+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "v2.9.4": {
+                "name": "laravel/nova",
+                "version": "v2.9.4",
+                "version_normalized": "2.9.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "98f7dac7cf6518e57398f9e73b4068d705daf60f"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2020-01-21T18:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "dev-master": {
+                "name": "laravel/nova",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "e9a62a5a5df22f647acc75590ca0502adf845eed"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "5.8.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.8.*",
+                    "orchestra/testbench": "3.8.*",
+                    "phpunit/phpunit": "^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-04-23T16:32:37+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "dev-1.0-cp": {
+                "name": "laravel/nova",
+                "version": "dev-1.0-cp",
+                "version_normalized": "dev-1.0-cp",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "c0286be99697ba0c22736107d60e443129efc46f"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "illuminate/support": "5.6.*|5.7.*",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "3.7.*",
+                    "orchestra/testbench": "3.7.*",
+                    "phpunit/phpunit": "^7.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2019-03-03T03:48:18+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            },
+            "dev-2.0-cp": {
+                "name": "laravel/nova",
+                "version": "dev-2.0-cp",
+                "version_normalized": "dev-2.0-cp",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/laravel/nova.git",
+                    "reference": "137b8e8cb0e068f55f69c863f441ead6a3bfd3a3"
+                },
+                "require": {
+                    "cakephp/chronos": "^1.0",
+                    "doctrine/dbal": "^2.9",
+                    "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+                    "moontoast/math": "^1.1",
+                    "php": ">=7.1.0",
+                    "spatie/once": "^1.1 | ^2.0",
+                    "symfony/finder": "^4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "orchestra/testbench": "3.7.* | 3.8.*",
+                    "phpunit/phpunit": "^7.0 | ^8.0",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2020-01-29T02:57:36+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ]
+            }
+        },
+        "paynamics/paygate-sdk-php": {
+            "v0.1.0": {
+                "name": "paynamics/paygate-sdk-php",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/paynamics/paygate-sdk-php.git",
+                    "reference": "f3b7d51555c2027fd4daee67e13cd59cc2024167"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^5.3.0|^6.0",
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^0.9.4",
+                    "phpunit/phpunit": "^4.7"
+                },
+                "time": "2017-05-24T02:40:04+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "CoreProc\\Paynamics\\Paygate\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Bergonia",
+                        "email": "ivan.bergonia@coreproc.ph"
+                    }
+                ],
+                "description": "Paynamics Paygate SDK for PHP",
+                "keywords": [
+                    "laravel",
+                    "paygate",
+                    "payment",
+                    "paynamics",
+                    "php"
+                ]
+            },
+            "dev-master": {
+                "name": "paynamics/paygate-sdk-php",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@git.coreproc.com:38085/paynamics/paygate-sdk-php.git",
+                    "reference": "8715a20b49a622ca0498f19503692741fba7efe9"
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^0.9.4",
+                    "phpunit/phpunit": "^4.7"
+                },
+                "time": "2017-11-17T09:19:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "CoreProc\\Paynamics\\Paygate\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Bergonia",
+                        "email": "ivan.bergonia@coreproc.ph"
+                    }
+                ],
+                "description": "Paynamics Paygate SDK for PHP",
+                "keywords": [
+                    "laravel",
+                    "paygate",
+                    "payment",
+                    "paynamics",
+                    "php"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+Fri Aug 30 14:38:23 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   ffe17f53..487a3d88  master     -> origin/master
+Updating ffe17f53..487a3d88
+Fast-forward
+ .../Customers/ConsultationsController.php          |  64 ++++++++-
+ .../Controllers/Nurses/ConsultationsController.php |  22 +++
+ .../Datatables/MagsaysayHoulderDatatables.php      | 157 +++++++++++++++++++++
+ .../Controllers/Nurses/MagsaysayController.php     | 145 +++++++++++++++++++
+ app/Http/Routes/nurses.php                         |  13 ++
+ app/Models/MagsaysayHoulder.php                    |  30 ++++
+ app/Models/Sku.php                                 |   2 +
+ app/Services/ConsultationsCreator.php              |   5 +-
+ config/sidebar.php                                 |   5 +
+ ...8_16_090434_create_magsaysay_houlders_table.php |  48 +++++++
+ ...e_enum_magsaysay_payment_transactions_table.php |  29 ++++
+ .../views/metronic/consultations/details.blade.php | 127 ++++++++++++++++-
+ .../magsaysay_houlder_members/index.blade.php      | 150 ++++++++++++++++++++
+ .../views/pages/consultation-option.blade.php      |  57 +++++++-
+ .../views/pages/consultation-request.blade.php     |   1 +
+ 15 files changed, 848 insertions(+), 7 deletions(-)
+ create mode 100644 app/Http/Controllers/Nurses/Datatables/MagsaysayHoulderDatatables.php
+ create mode 100644 app/Http/Controllers/Nurses/MagsaysayController.php
+ create mode 100644 app/Models/MagsaysayHoulder.php
+ create mode 100644 database/migrations/2019_08_16_090434_create_magsaysay_houlders_table.php
+ create mode 100644 database/migrations/2019_08_19_115017_update_enum_magsaysay_payment_transactions_table.php
+ create mode 100644 resources/views/metronic/nurse/magsaysay_houlder_members/index.blade.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. Run update to update them.
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Migrated: 2019_08_16_090434_create_magsaysay_houlders_table
+Migrated: 2019_08_19_115017_update_enum_magsaysay_payment_transactions_table
+Compiled views cleared!
+Broadcasting queue restart signal.
+Configuration cache cleared!
+Configuration cached successfully!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    301     81 --:--:-- --:--:-- --:--:--   383
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

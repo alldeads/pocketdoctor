@@ -1,0 +1,43 @@
+Tue Jan 28 09:41:30 PST 2020
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   31d1ec56..4a91afdd  master     -> origin/master
+Updating 31d1ec56..4a91afdd
+Fast-forward
+ .../Admin/AffiliateMembersController.php           |  15 +-
+ .../Affiliates/AffiliateMembersController.php      |   2 +-
+ .../Nurses/AffiliateMembersController.php          |  15 +-
+ app/Models/AffiliateMember.php                     |   1 +
+ app/Support/Views/SideBar.php                      |  18 ++-
+ ..._084322_update_enum_affiliate_members_table.php |  19 +++
+ public/assets/img/kirschner-logo.png               | Bin 0 -> 7047 bytes
+ .../admin/affiliates/members/index.blade.php       |   6 +-
+ .../admin/affiliates/members/show.blade.php        |   8 +-
+ .../nurse/affiliates/members/index.blade.php       |   6 +-
+ .../nurse/affiliates/members/show.blade.php        |   8 +-
+ .../views/pages/consultation-option.blade.php      | 157 +++++++++++++++++----
+ 12 files changed, 205 insertions(+), 50 deletions(-)
+ create mode 100644 database/migrations/2020_01_28_084322_update_enum_affiliate_members_table.php
+ create mode 100644 public/assets/img/kirschner-logo.png
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. It is recommended that you run `composer update` or `composer update <package name>`.
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Migrated: 2020_01_28_084322_update_enum_affiliate_members_table
+Compiled views cleared!
+Broadcasting queue restart signal.
+Configuration cache cleared!
+Configuration cached successfully!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    333     89 --:--:-- --:--:-- --:--:--   424
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

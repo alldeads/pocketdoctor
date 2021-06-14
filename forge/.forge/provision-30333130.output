@@ -1,0 +1,35 @@
+Wed Aug 14 09:20:58 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   b75b0eba..4b0ad184  master     -> origin/master
+Updating b75b0eba..4b0ad184
+Fast-forward
+ .../Customers/ConsultationsController.php          |  19 +++
+ .../Doctors/ConsultationsController.php            |  51 +++++-
+ public/assets/js/rainbow/rainbow.js                |  16 +-
+ resources/views/layouts/master.blade.php           | 176 +++++++++++++++++++++
+ .../views/metronic/consultations/details.blade.php |  17 +-
+ .../metronic/doctor/consultations/show.blade.php   |  47 ++----
+ .../video-call-room/video-call-room.blade.php      |   4 +-
+ 7 files changed, 290 insertions(+), 40 deletions(-)
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Nothing to migrate.
+Compiled views cleared!
+Broadcasting queue restart signal.
+Configuration cache cleared!
+Configuration cached successfully!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    283     76 --:--:-- --:--:-- --:--:--   359
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

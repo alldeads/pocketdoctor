@@ -1,0 +1,53 @@
+Tue Mar 31 16:56:34 PST 2020
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   4340e072..c07a749f  master     -> origin/master
+Updating 4340e072..c07a749f
+Fast-forward
+ public/assets/img/co-founder.jpg        | Bin 0 -> 6751 bytes
+ public/assets/img/co-founder_1.jpg      | Bin 0 -> 9883 bytes
+ public/assets/img/founder.jpg           | Bin 0 -> 38190 bytes
+ public/assets/img/founder_1.jpg         | Bin 0 -> 12457 bytes
+ resources/views/pages/about.blade.php   |  25 +++++++++++++++++++++++--
+ resources/views/pages/welcome.blade.php |   1 +
+ 6 files changed, 24 insertions(+), 2 deletions(-)
+ create mode 100644 public/assets/img/co-founder.jpg
+ create mode 100644 public/assets/img/co-founder_1.jpg
+ create mode 100644 public/assets/img/founder.jpg
+ create mode 100644 public/assets/img/founder_1.jpg
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Nothing to install or update
+Package mtdowling/cron-expression is abandoned, you should avoid using it. Use dragonmantank/cron-expression instead.
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Package phpunit/phpunit-mock-objects is abandoned, you should avoid using it. No replacement was suggested.
+Generating optimized autoload files
+Deprecation Notice: Class yajra\Datatables\Facades\Datatables located in ./vendor/yajra/laravel-datatables-oracle/src/yajra/Datatables/Facade/Datatables.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Logarithmic_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/logarithmicBestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Power_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/powerBestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Polynomial_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/polynomialBestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/bestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Linear_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/linearBestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Exponential_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class Mediaxes\MyPocketDoctor\Http\Controllers\Api\v3\MedicalIssuesController located in ./app/Http/Controllers/Api/V3/MedicalIssuesController.php does not comply with psr-4 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class Mediaxes\MyPocketDoctor\EventCouponLog located in ./app/Models/EventCouponLog.php does not comply with psr-4 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class Mediaxes\MyPocketDoctor\EventCoupon located in ./app/Models/EventCoupon.php does not comply with psr-4 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class Clickatell\ClickatellOtpTest located in ./vendor/arcturial/clickatell/test/Otp/ClickatellOtpTest.php does not comply with psr-4 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+1 package you are using is looking for funding.
+Use the `composer fund` command to find out more!
+ocramius/package-versions:  Generating version class...
+ocramius/package-versions: ...done generating version class
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Nothing to migrate.
+Compiled views cleared!
+Broadcasting queue restart signal.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    341     91 --:--:-- --:--:-- --:--:--   432
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

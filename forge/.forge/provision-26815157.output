@@ -1,0 +1,24 @@
+Tue Apr 16 16:09:43 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   9832ed9a..6f5c286a  master     -> origin/master
+Updating 9832ed9a..6f5c286a
+Fast-forward
+ .../Controllers/Nurses/ConsultationsController.php | 38 +++++++++++++++++++---
+ 1 file changed, 34 insertions(+), 4 deletions(-)
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Nothing to migrate.
+Compiled views cleared!
+Broadcasting queue restart signal.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    262     70 --:--:-- --:--:-- --:--:--   333100   118    0    93  100    25    262     70 --:--:-- --:--:-- --:--:--   332
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

@@ -1,0 +1,34 @@
+Thu Aug 29 13:37:13 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   4ab7537b..b3ad5685  master     -> origin/master
+Updating 4ab7537b..b3ad5685
+Fast-forward
+ .../Doctors/ConsultationsController.php            |  3 +-
+ app/Models/Consultation.php                        |  1 +
+ ...l_certificate_status_to_consultations_table.php | 34 ++++++++++++++++++++++
+ .../metronic/consultations/diagnosis.blade.php     |  7 ++---
+ 4 files changed, 39 insertions(+), 6 deletions(-)
+ create mode 100644 database/migrations/2019_08_29_100143_add_medical_certificate_status_to_consultations_table.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. Run update to update them.
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Migrated: 2019_08_29_100143_add_medical_certificate_status_to_consultations_table
+Compiled views cleared!
+Broadcasting queue restart signal.
+Configuration cache cleared!
+Configuration cached successfully!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25    0     0  100    25      0    121 --:--:-- --:--:-- --:--:--   121100   118    0    93  100    25    256     68 --:--:-- --:--:-- --:--:--   324
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

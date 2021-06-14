@@ -1,0 +1,6 @@
+--2021-06-10 16:03:01--  https://forge-certificates.laravel.com/le/523483/740309?env=production
+Resolving forge-certificates.laravel.com (forge-certificates.laravel.com)... 104.26.12.100, 172.67.71.125, 104.26.13.100, ...
+Connecting to forge-certificates.laravel.com (forge-certificates.laravel.com)|104.26.12.100|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2021-06-10 16:03:02 ERROR 400: Bad Request.
+

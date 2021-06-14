@@ -1,0 +1,47 @@
+Thu Mar 12 09:02:52 PST 2020
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   668b604e..5f0f376b  master     -> origin/master
+Updating 668b604e..5f0f376b
+Fast-forward
+ app/Exceptions/Handler.php                         |    6 +-
+ app/Http/Controllers/Api/V3/SessionsController.php |   12 +-
+ .../Customers/ConsultationsController.php          |   70 +-
+ .../Doctors/ConsultationsController.php            |  128 +-
+ app/Http/Controllers/Nurses/HomeController.php     |    2 +-
+ composer.json                                      |    4 +-
+ composer.lock                                      | 1641 +++++++++++++++-----
+ config/app.php                                     |    4 +-
+ config/database.php                                |    1 +
+ config/sentry.php                                  |    2 +-
+ .../js/doctors/doctors.dashboard.consultations.js  |   51 +-
+ resources/views/metronic/app.blade.php             |   10 +-
+ .../views/metronic/consultations/details.blade.php |   50 +-
+ .../metronic/doctor/consultations/show.blade.php   |   49 +-
+ .../views/metronic/doctor/home/index.blade.php     |   14 +-
+ resources/views/pages/consultation.blade.php       |   32 +-
+ 16 files changed, 1505 insertions(+), 571 deletions(-)
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Installation request for doctrine/dbal v2.10.1 -> satisfiable by doctrine/dbal[v2.10.1].
+    - doctrine/dbal v2.10.1 requires php ^7.2 -> your PHP version (7.1.33) does not satisfy that requirement.
+  Problem 2
+    - Installation request for ocramius/package-versions 1.5.1 -> satisfiable by ocramius/package-versions[1.5.1].
+    - ocramius/package-versions 1.5.1 requires php ^7.3.0 -> your PHP version (7.1.33) does not satisfy that requirement.
+  Problem 3
+    - Installation request for symfony/options-resolver v5.0.5 -> satisfiable by symfony/options-resolver[v5.0.5].
+    - symfony/options-resolver v5.0.5 requires php ^7.2.5 -> your PHP version (7.1.33) does not satisfy that requirement.
+  Problem 4
+    - Installation request for phpdocumentor/reflection-docblock 5.1.0 -> satisfiable by phpdocumentor/reflection-docblock[5.1.0].
+    - phpdocumentor/reflection-docblock 5.1.0 requires php ^7.2 -> your PHP version (7.1.33) does not satisfy that requirement.
+  Problem 5
+    - Installation request for phpdocumentor/type-resolver 1.1.0 -> satisfiable by phpdocumentor/type-resolver[1.1.0].
+    - phpdocumentor/type-resolver 1.1.0 requires php ^7.2 -> your PHP version (7.1.33) does not satisfy that requirement.
+  Problem 6
+    - phpdocumentor/reflection-docblock 5.1.0 requires php ^7.2 -> your PHP version (7.1.33) does not satisfy that requirement.
+    - phpspec/prophecy v1.10.3 requires phpdocumentor/reflection-docblock ^2.0|^3.0.2|^4.0|^5.0 -> satisfiable by phpdocumentor/reflection-docblock[5.1.0].
+    - Installation request for phpspec/prophecy v1.10.3 -> satisfiable by phpspec/prophecy[v1.10.3].
+

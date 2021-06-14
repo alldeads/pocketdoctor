@@ -1,0 +1,43 @@
+Mon Oct 21 14:05:02 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   1f27b106..43f26eff  master     -> origin/master
+Updating 1f27b106..43f26eff
+Fast-forward
+ app/Clients/RainbowClient.php                      | 17 +++------
+ app/Events/CallsApi.php                            | 40 ++++++++++++++++++++++
+ app/Http/Controllers/Api/V3/SessionsController.php | 13 ++++++-
+ app/Http/Controllers/Auth/AuthController.php       |  4 +++
+ .../Doctors/ConsultationsController.php            | 21 +++++-------
+ app/Http/Routes/api.php                            |  2 ++
+ app/Listeners/CreateApiLogs.php                    | 39 +++++++++++++++++++++
+ app/Models/ApiEventLog.php                         |  4 ++-
+ app/Providers/EventServiceProvider.php             |  5 +++
+ ..._11_150116_add_type_on_api_event_logs_table.php | 30 ++++++++++++++++
+ .../views/metronic/api_event_logs/index.blade.php  |  4 +++
+ 11 files changed, 151 insertions(+), 28 deletions(-)
+ create mode 100644 app/Events/CallsApi.php
+ create mode 100644 app/Listeners/CreateApiLogs.php
+ create mode 100644 database/migrations/2019_10_11_150116_add_type_on_api_event_logs_table.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. Run update to update them.
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Migrated: 2019_10_11_150116_add_type_on_api_event_logs_table
+Compiled views cleared!
+Broadcasting queue restart signal.
+Configuration cache cleared!
+Configuration cached successfully!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    316     85 --:--:-- --:--:-- --:--:--   401
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

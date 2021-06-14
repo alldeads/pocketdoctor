@@ -1,0 +1,44 @@
+Wed Jul 10 16:22:12 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   0cc6e571..13d3b4a2  master     -> origin/master
+Updating 0cc6e571..13d3b4a2
+Fast-forward
+ .../Controllers/Admin/CouponEventsController.php   | 127 +++++++++++++++++++++
+ .../Customers/ConsultationsController.php          |  22 ++--
+ app/Http/Requests/CouponEventRequest.php           |  33 ++++++
+ app/Http/Routes/admins.php                         |   8 ++
+ app/Models/EventCoupon.php                         |  15 +++
+ app/Models/EventCouponLog.php                      |  14 +++
+ config/sidebar.php                                 |   5 +
+ ...019_06_14_110540_create_event_coupons_table.php |  34 ++++++
+ ...06_14_110602_create_event_coupon_logs_table.php |  33 ++++++
+ .../metronic/admin/coupon-events/create.blade.php  |  68 +++++++++++
+ 10 files changed, 349 insertions(+), 10 deletions(-)
+ create mode 100644 app/Http/Controllers/Admin/CouponEventsController.php
+ create mode 100644 app/Http/Requests/CouponEventRequest.php
+ create mode 100644 app/Models/EventCoupon.php
+ create mode 100644 app/Models/EventCouponLog.php
+ create mode 100644 database/migrations/2019_06_14_110540_create_event_coupons_table.php
+ create mode 100644 database/migrations/2019_06_14_110602_create_event_coupon_logs_table.php
+ create mode 100644 resources/views/metronic/admin/coupon-events/create.blade.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Migrated: 2019_06_14_110540_create_event_coupons_table
+Migrated: 2019_06_14_110602_create_event_coupon_logs_table
+Compiled views cleared!
+Broadcasting queue restart signal.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25     89     24  0:00:01  0:00:01 --:--:--   113
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

@@ -1,0 +1,138 @@
+Tue Oct 13 10:56:13 PST 2020
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   551c7d33..0ae62365  master     -> origin/master
+Updating 551c7d33..0ae62365
+Fast-forward
+ app/Http/Routes/pages.php                          |  24 ++
+ public/assets/img/doctors/Ann_Bernadette.jpg       | Bin 0 -> 25623 bytes
+ public/assets/img/doctors/Bernard_Magdoza.jpg      | Bin 0 -> 21255 bytes
+ public/assets/img/doctors/Bernard_Magdoza_M.D.jpg  | Bin 0 -> 22918 bytes
+ .../img/doctors/Christian_Lyn_Obien_DMD.jpeg       | Bin 0 -> 29894 bytes
+ ...IM_M.D._Adult_Diseases_General_Practitioner.jpg | Bin 0 -> 27680 bytes
+ .../img/doctors/Jenny_Etulle_Asignacion_M.D.jpg    | Bin 0 -> 43415 bytes
+ ..._Errika_Baga_General_Surgery_Adult_Diseases.jpg | Bin 0 -> 36134 bytes
+ public/assets/img/doctors/John_M._Enconado.jpg     | Bin 0 -> 23022 bytes
+ .../img/doctors/Ma._Louella_Jamir-Villanueva.jpg   | Bin 0 -> 25617 bytes
+ .../img/doctors/Maria_Carol_La_Arnnie_Dieta.jpg    | Bin 0 -> 30894 bytes
+ .../doctors/Maria_Carol_La_Arnnie_Dieta_M.D.png    | Bin 0 -> 278171 bytes
+ public/assets/img/doctors/Maria_Paz.jpg            | Bin 0 -> 26636 bytes
+ .../doctors/Mary_D._David_Buenaventura_M.D.jpeg    | Bin 0 -> 24647 bytes
+ ...uez_M.D_Adult_Diseases_General_Practitioner.jpg | Bin 0 -> 25562 bytes
+ .../Redeem_Mondragon_M.D_General_Pediatrics.jpg    | Bin 0 -> 31445 bytes
+ .../assets/img/doctors/Rinna_Flores-Enconado.jpg   | Bin 0 -> 29507 bytes
+ public/assets/img/doctors/Shariff.jpg              | Bin 0 -> 25095 bytes
+ public/assets/img/doctors/ann-bernatted-edited.jpg | Bin 0 -> 33902 bytes
+ .../assets/img/doctors/bernard-magdoza-edited.jpg  | Bin 0 -> 27856 bytes
+ public/assets/img/doctors/carol-dieta-edited.png   | Bin 0 -> 150742 bytes
+ .../assets/img/doctors/jenny-asignacion-edited.jpg | Bin 0 -> 29511 bytes
+ public/assets/img/doctors/jo-jeremy.jpg            | Bin 0 -> 33290 bytes
+ public/assets/img/doctors/johanna-errika.jpg       | Bin 0 -> 39923 bytes
+ public/assets/img/doctors/john-enconado-edited.jpg | Bin 0 -> 26905 bytes
+ .../img/doctors/louella-villanueva-edited.jpg      | Bin 0 -> 31978 bytes
+ .../assets/img/doctors/ludgero-reginald-edited.jpg | Bin 0 -> 29436 bytes
+ public/assets/img/doctors/ludgero-reginald.jpg     | Bin 0 -> 22368 bytes
+ public/assets/img/doctors/lulu-de-guzman.jpg       | Bin 0 -> 30828 bytes
+ public/assets/img/doctors/lulu_de_guzman.jpg       | Bin 0 -> 14997 bytes
+ public/assets/img/doctors/lyn-obien-edited.jpeg    | Bin 0 -> 32575 bytes
+ public/assets/img/doctors/magdoza-edited.jpg       | Bin 0 -> 26558 bytes
+ public/assets/img/doctors/maria-dieta-edited.jpg   | Bin 0 -> 37913 bytes
+ public/assets/img/doctors/maria-paz-edited.jpg     | Bin 0 -> 28701 bytes
+ public/assets/img/doctors/marian-ting-edited.jpg   | Bin 0 -> 40169 bytes
+ public/assets/img/doctors/marian-ting.jpg          | Bin 0 -> 33153 bytes
+ .../img/doctors/mary-buenaventura-edited.jpeg      | Bin 0 -> 31685 bytes
+ public/assets/img/doctors/montana-amir.jpg         | Bin 0 -> 34111 bytes
+ .../assets/img/doctors/rinna-enconado-edited.jpg   | Bin 0 -> 33974 bytes
+ .../assets/img/doctors/shariff-husseins-edited.jpg | Bin 0 -> 32604 bytes
+ .../assets/img/doctors/stephanie-marie-edited.jpg  | Bin 0 -> 49446 bytes
+ public/assets/img/doctors/stephanie-marie.jpg      | Bin 0 -> 66516 bytes
+ .../views/pages/clinical-psychologist.blade.php    | 127 +++++++
+ resources/views/pages/dental.blade.php             | 141 ++++++++
+ resources/views/pages/doctors-list.blade.php       | 367 +++++++++------------
+ resources/views/pages/specialists.blade.php        | 188 +++++++++++
+ resources/views/pages/welcome.blade.php            | 302 ++++++++++++++---
+ resources/views/partials/header.blade.php          |  20 +-
+ 48 files changed, 896 insertions(+), 273 deletions(-)
+ create mode 100644 public/assets/img/doctors/Ann_Bernadette.jpg
+ create mode 100644 public/assets/img/doctors/Bernard_Magdoza.jpg
+ create mode 100644 public/assets/img/doctors/Bernard_Magdoza_M.D.jpg
+ create mode 100644 public/assets/img/doctors/Christian_Lyn_Obien_DMD.jpeg
+ create mode 100644 public/assets/img/doctors/JO_JEREMY_SHIELD_LIM_M.D._Adult_Diseases_General_Practitioner.jpg
+ create mode 100644 public/assets/img/doctors/Jenny_Etulle_Asignacion_M.D.jpg
+ create mode 100644 public/assets/img/doctors/Johanna_Errika_Baga_General_Surgery_Adult_Diseases.jpg
+ create mode 100644 public/assets/img/doctors/John_M._Enconado.jpg
+ create mode 100644 public/assets/img/doctors/Ma._Louella_Jamir-Villanueva.jpg
+ create mode 100644 public/assets/img/doctors/Maria_Carol_La_Arnnie_Dieta.jpg
+ create mode 100644 public/assets/img/doctors/Maria_Carol_La_Arnnie_Dieta_M.D.png
+ create mode 100644 public/assets/img/doctors/Maria_Paz.jpg
+ create mode 100644 public/assets/img/doctors/Mary_D._David_Buenaventura_M.D.jpeg
+ create mode 100644 public/assets/img/doctors/Montana_Amir_Cheng_Dominguez_M.D_Adult_Diseases_General_Practitioner.jpg
+ create mode 100644 public/assets/img/doctors/Redeem_Mondragon_M.D_General_Pediatrics.jpg
+ create mode 100644 public/assets/img/doctors/Rinna_Flores-Enconado.jpg
+ create mode 100644 public/assets/img/doctors/Shariff.jpg
+ create mode 100644 public/assets/img/doctors/ann-bernatted-edited.jpg
+ create mode 100644 public/assets/img/doctors/bernard-magdoza-edited.jpg
+ create mode 100644 public/assets/img/doctors/carol-dieta-edited.png
+ create mode 100644 public/assets/img/doctors/jenny-asignacion-edited.jpg
+ create mode 100644 public/assets/img/doctors/jo-jeremy.jpg
+ create mode 100644 public/assets/img/doctors/johanna-errika.jpg
+ create mode 100644 public/assets/img/doctors/john-enconado-edited.jpg
+ create mode 100644 public/assets/img/doctors/louella-villanueva-edited.jpg
+ create mode 100644 public/assets/img/doctors/ludgero-reginald-edited.jpg
+ create mode 100644 public/assets/img/doctors/ludgero-reginald.jpg
+ create mode 100644 public/assets/img/doctors/lulu-de-guzman.jpg
+ create mode 100644 public/assets/img/doctors/lulu_de_guzman.jpg
+ create mode 100644 public/assets/img/doctors/lyn-obien-edited.jpeg
+ create mode 100644 public/assets/img/doctors/magdoza-edited.jpg
+ create mode 100644 public/assets/img/doctors/maria-dieta-edited.jpg
+ create mode 100644 public/assets/img/doctors/maria-paz-edited.jpg
+ create mode 100644 public/assets/img/doctors/marian-ting-edited.jpg
+ create mode 100644 public/assets/img/doctors/marian-ting.jpg
+ create mode 100644 public/assets/img/doctors/mary-buenaventura-edited.jpeg
+ create mode 100644 public/assets/img/doctors/montana-amir.jpg
+ create mode 100644 public/assets/img/doctors/rinna-enconado-edited.jpg
+ create mode 100644 public/assets/img/doctors/shariff-husseins-edited.jpg
+ create mode 100644 public/assets/img/doctors/stephanie-marie-edited.jpg
+ create mode 100644 public/assets/img/doctors/stephanie-marie.jpg
+ create mode 100644 resources/views/pages/clinical-psychologist.blade.php
+ create mode 100644 resources/views/pages/dental.blade.php
+ create mode 100644 resources/views/pages/specialists.blade.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Nothing to install or update
+Package jakub-onderka/php-console-color is abandoned, you should avoid using it. Use php-parallel-lint/php-console-color instead.
+Package jakub-onderka/php-console-highlighter is abandoned, you should avoid using it. Use php-parallel-lint/php-console-highlighter instead.
+Package jeremeamia/SuperClosure is abandoned, you should avoid using it. Use opis/closure instead.
+Package mtdowling/cron-expression is abandoned, you should avoid using it. Use dragonmantank/cron-expression instead.
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Package phpunit/phpunit-mock-objects is abandoned, you should avoid using it. No replacement was suggested.
+Generating optimized autoload files
+Deprecation Notice: Class yajra\Datatables\Facades\Datatables located in ./vendor/yajra/laravel-datatables-oracle/src/yajra/Datatables/Facade/Datatables.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Logarithmic_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/logarithmicBestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Power_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/powerBestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Polynomial_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/polynomialBestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/bestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Linear_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/linearBestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class PHPExcel_Exponential_Best_Fit located in ./vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php does not comply with psr-0 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class Mediaxes\MyPocketDoctor\Http\Controllers\Api\v3\MedicalIssuesController located in ./app/Http/Controllers/Api/V3/MedicalIssuesController.php does not comply with psr-4 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class Mediaxes\MyPocketDoctor\EventCouponLog located in ./app/Models/EventCouponLog.php does not comply with psr-4 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class Mediaxes\MyPocketDoctor\EventCoupon located in ./app/Models/EventCoupon.php does not comply with psr-4 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Deprecation Notice: Class Clickatell\ClickatellOtpTest located in ./vendor/arcturial/clickatell/test/Otp/ClickatellOtpTest.php does not comply with psr-4 autoloading standard. It will not autoload anymore in Composer v2.0. in phar:///usr/local/bin/composer/src/Composer/Autoload/ClassMapGenerator.php:201
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+composer/package-versions-deprecated: Generating version class...
+composer/package-versions-deprecated: ...done generating version class
+14 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Nothing to migrate.
+Compiled views cleared!
+Broadcasting queue restart signal.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   102    0    77  100    25    318    103 --:--:-- --:--:-- --:--:--   421
+{"success":false,"errors":[{"code":10000,"message":"Authentication error"}]}

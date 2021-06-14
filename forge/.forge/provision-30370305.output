@@ -1,0 +1,36 @@
+Thu Aug 15 11:23:32 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   39028806..cc87f536  master     -> origin/master
+Updating 39028806..cc87f536
+Fast-forward
+ .../Controllers/Nurses/AXAMembersController.php    |  18 ++
+ .../Nurses/Datatables/AxaMembersDatatables.php     |  29 ++
+ app/Http/Routes/nurses.php                         |  12 +-
+ .../metronic/nurse/axa_members/index.blade.php     | 291 +++++++++++++--------
+ resources/views/reports/axa-members.blade.php      |  26 ++
+ 5 files changed, 266 insertions(+), 110 deletions(-)
+ create mode 100644 app/Http/Controllers/Nurses/Datatables/AxaMembersDatatables.php
+ create mode 100644 resources/views/reports/axa-members.blade.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. Run update to update them.
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Nothing to migrate.
+Compiled views cleared!
+Broadcasting queue restart signal.
+Configuration cache cleared!
+Configuration cached successfully!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    247     66 --:--:-- --:--:-- --:--:--   314
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

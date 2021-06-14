@@ -1,0 +1,59 @@
+Tue Oct 8 09:53:14 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+   a44f6e24..9f1a5ce1  master     -> origin/master
+Updating a44f6e24..9f1a5ce1
+Fast-forward
+ app/Clients/RainbowClient.php                      |  15 ++
+ app/Http/Controllers/Admin/ApiEventController.php  |  48 ++++++
+ .../Admin/Datatables/ApiEventHitsDatatables.php    |  36 ++++
+ .../Admin/Datatables/ApiEventLogsDatatables.php    |  20 +++
+ .../Customers/ConsultationsController.php          |  24 +++
+ .../Doctors/ConsultationsController.php            |  38 ++++-
+ app/Http/Routes/admins.php                         |   7 +
+ app/Http/Routes/customers.php                      |   5 +
+ app/Http/Routes/doctors.php                        |   5 +
+ app/Models/ApiEventLog.php                         |  34 ++++
+ config/sidebar.php                                 |  10 ++
+ ...19_09_30_161644_create_api_event_logs_table.php |  34 ++++
+ public/assets/js/rainbow/rainbow.js                |  91 ++++++++++-
+ resources/views/layouts/master.blade.php           |  18 --
+ .../views/layouts/patients/patients.blade.php      | 174 --------------------
+ .../views/metronic/api_event_logs/index.blade.php  | 111 +++++++++++++
+ resources/views/metronic/app.blade.php             |   9 -
+ .../views/metronic/consultations/details.blade.php |   2 +-
+ .../metronic/doctor/consultations/show.blade.php   | 151 +++++++++++++++++
+ .../metronic/web_rtc_hits_report/index.blade.php   | 146 +++++++++++++++++
+ resources/views/pages/consultation.blade.php       | 181 +++++++++++++++++++++
+ resources/views/reports/web_rtc_hits.blade.php     |  20 +++
+ 22 files changed, 972 insertions(+), 207 deletions(-)
+ create mode 100644 app/Http/Controllers/Admin/ApiEventController.php
+ create mode 100644 app/Http/Controllers/Admin/Datatables/ApiEventHitsDatatables.php
+ create mode 100644 app/Http/Controllers/Admin/Datatables/ApiEventLogsDatatables.php
+ create mode 100644 app/Models/ApiEventLog.php
+ create mode 100644 database/migrations/2019_09_30_161644_create_api_event_logs_table.php
+ create mode 100644 resources/views/metronic/api_event_logs/index.blade.php
+ create mode 100644 resources/views/metronic/web_rtc_hits_report/index.blade.php
+ create mode 100644 resources/views/reports/web_rtc_hits.blade.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. Run update to update them.
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Migrated: 2019_09_30_161644_create_api_event_logs_table
+Compiled views cleared!
+Broadcasting queue restart signal.
+Configuration cache cleared!
+Configuration cached successfully!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    340     91 --:--:-- --:--:-- --:--:--   432
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}

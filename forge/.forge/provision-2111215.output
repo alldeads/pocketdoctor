@@ -1,0 +1,13 @@
+Fri Mar 13 11:41:43 PST 2020
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+Already up to date.
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - doctrine/dbal v2.10.1 requires php ^7.2 -> your PHP version (7.1.33) does not satisfy that requirement.
+    - doctrine/dbal v2.10.1 requires php ^7.2 -> your PHP version (7.1.33) does not satisfy that requirement.
+    - Installation request for doctrine/dbal v2.10.1 -> satisfiable by doctrine/dbal[v2.10.1].
+

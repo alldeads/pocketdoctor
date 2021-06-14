@@ -1,0 +1,16 @@
+#
+# REQUIRES:
+#       - microServiceUrl (the URL of the LE forge microservice)
+#       - site (the forge site instance)
+#       - certificate (the forge certificate instance)
+#
+
+set -e
+
+TIME=$(date +%s)
+
+wget -O letsencrypt_script$TIME https://forge-certificates.laravel.com/le/1063037/740309?env=production
+
+bash letsencrypt_script$TIME > /home/forge/.letsencrypt-renew/1063037.out
+
+rm letsencrypt_script$TIME

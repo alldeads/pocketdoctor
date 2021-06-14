@@ -1,0 +1,41 @@
+Wed Jun 19 16:03:36 PST 2019
+From ssh://git.coreproc.com:38085/mediaxes/mypocketdoctor-web
+ * branch              master     -> FETCH_HEAD
+Updating 70e270f1..0cc6e571
+Fast-forward
+ app/Http/Controllers/Api/V3/MaceController.php     | 159 +++++++++++++++++++++
+ .../Controllers/Nurses/ConsultationsController.php |  40 +++++-
+ app/Http/Routes/api.php                            |   4 +
+ app/Http/Routes/nurses.php                         |   5 +
+ app/Models/MedicardDependent.php                   |  35 +++++
+ ..._29_195510_create_medicard_dependents_table.php |  37 +++++
+ .../views/metronic/consultations/details.blade.php |  76 +++++++++-
+ .../metronic/nurse/consultations/show.blade.php    |   2 +-
+ 8 files changed, 351 insertions(+), 7 deletions(-)
+ create mode 100755 app/Http/Controllers/Api/V3/MaceController.php
+ mode change 100644 => 100755 app/Http/Controllers/Nurses/ConsultationsController.php
+ mode change 100644 => 100755 app/Http/Routes/api.php
+ mode change 100644 => 100755 app/Http/Routes/nurses.php
+ create mode 100644 app/Models/MedicardDependent.php
+ create mode 100644 database/migrations/2019_03_29_195510_create_medicard_dependents_table.php
+ mode change 100644 => 100755 resources/views/metronic/consultations/details.blade.php
+ mode change 100644 => 100755 resources/views/metronic/nurse/consultations/show.blade.php
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run './vendor/bin/upgrade-carbon' to get help in updating carbon and other frameworks and libraries that depend on it.
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+Migrated: 2019_03_29_195510_create_medicard_dependents_table
+Compiled views cleared!
+Broadcasting queue restart signal.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   118    0    93  100    25    259     69 --:--:-- --:--:-- --:--:--   328100   118    0    93  100    25    259     69 --:--:-- --:--:-- --:--:--   328
+{"result":{"id":"94a0aeeca7d0ad4ab8f4a651fc8622a6"},"success":true,"errors":[],"messages":[]}
